@@ -18,8 +18,16 @@
 1. git branch - создание новой ветки
 
    * git branch -M main - переход на новую ветку
+
 2. git checkout - переход на другую ветку
-3. 
+
+3. git branch -d удаление ветки
+
+4. git merge - выполняет слияние отдельных направлений разработки, созданных с помощью команды git branch , в единую ветку 
+5. git diff - сравнения источников данных Git — коммитов, веток, файлов
+
+
+
 git remote add origin https://github.com/AlevtinaIudanova/GitConnect.git
 
 git push -u origin main
