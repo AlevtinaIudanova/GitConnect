@@ -8,9 +8,13 @@
 
    * git commit --amend -m "сообщение" - изменения в сохраненных коментариях, необходимо сделать описание более понятным.
    *  git commit --amend --no-edit - Если вы добавили новые файлы или исправили ошибку, но не хотите добавлять еще одно commit-сообщение
+4. git log - список комментарией
+## Работа с ветками
+1. git branch - создание новой ветки
 
-git branch -M main
-
+   * git branch -M main - переход на новую ветку
+2. git checkout - переход на другую ветку
+3. 
 git remote add origin https://github.com/AlevtinaIudanova/GitConnect.git
 
 git push -u origin main
